@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<h1>This are HTML Forms</h1>
+
+<p>The tag that populates a form is (form tag)</p>
+<p>
+    input types include:
+    <ul>
+    <li>text</li>
+    <li>radio (user can only select one answer)</li>
+    <li>checkbox (user can select more than one option)</li>
+    <li>Select (uses the option tags either in form of a dropdown to provide options to users)</li>
+    <li>submit (this creates the submit button)</li>
+    <li>reset (this creates the reset button)</li>
+</ul>
+</p>
+
+
+<h3>Employee Registration Form</h3>
+<form action="">
+ First Name: <input type="text"> <br><br>
+    Last Name: <input type="text"> <br><br>
+    Age: <input type="text"> <br><br>
+<!--    Gender: <input type="text"> <br><br>-->
+    Gender:
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" checked value="female"> Female <br><br>
+    Marital Status: <input type="text"> <br><br>
+<!--    Location: <input type="text"> <br><br>-->
+Location:
+    <input type="checkbox" name="location" value="Nairobi" checked> Nairobi
+    <input type="checkbox" name="location" value="Meru"> Meru
+    <input type="checkbox" name="location" value="Kitale"> Kitale
+    <input type="checkbox" name="location" value="Kirinyaga"> Kirinyaga <br><br>
+    Country:
+    <select name="dropdown" id="">
+        <option value="Kenya">Kenya</option>
+        <option value="Uganda">Uganda</option>
+        <option value="Tanzania">Tanzania</option>
+        <option value="Korea">Korea</option>
+        <option value="Zanzibar">Zanzibar</option>
+        <option value="Guinea" selected >Guinea </option>
+        <option value="Rwanda">Rwanda</option>
+    </select> <br><br>
+    <input type="submit" value="save"> <br><br>
+    <input type="reset" value="update">
+</form>
+
+<h3>LOGIN FORM</h3>
+<form action="">
+    Username: <input type="text" value="<placeholder>Enter Username Here</placeholder>"> <br><br>
+    Password: <input type="text" value="<placeholder>Enter Password Here</placeholder>"> <br><br>
+    <input type="submit" value="LOGIN">
+
+
+
+</form>
+</body>
+</html>

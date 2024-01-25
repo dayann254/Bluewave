@@ -1,0 +1,21 @@
+h1{
+            color:black;
+            background-color: coral;
+            font-family: P052;
+            text-align: center;
+            text-decoration: underline;
+        }
+        body {
+            background-color: hotpink;
+        }
+        h3{text-decoration: underline}
+        ol{
+            color:blue;
+            font-family: P052;
+            font-size: large;
+        }
+ul{
+    color: darkorchid;
+    font-size: large;
+    font-family: P052;
+}

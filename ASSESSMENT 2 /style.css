@@ -1,0 +1,48 @@
+body{
+    background-color: deeppink;
+    color:white;
+    font-size: x-large;
+}
+h1{
+    font-size: xxx-large;
+    font-family: P052;
+    text-decoration: underline;
+    text-align: center;
+}
+button{
+    background-color: indigo;
+    font-size: xx-large ;
+    text-decoration: underline;
+}
+form{
+border: solid;
+    border-width: thick;
+    border-style: double;
+    mso-cellspacing: 8px;
+    mso-cell-special: template-row;
+    font-family: C059;
+    font-size: xx-large;
+}
+table{
+    border: solid;
+    width: 100%;
+    cellspacing:4px;
+    cellpadding:5px;
+}
+td{
+    border: solid;
+}
+th{
+    border: solid;
+    text-decoration: underline;
+    font-size: xx-large;
+}
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style-type: lower-roman;
+}
+.identity{
+    list-style-type: numeric;
+}
